@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "283085233492",
+    "firebase_url": "https://realoptical-1eddc-default-rtdb.firebaseio.com",
+    "project_id": "realoptical-1eddc",
+    "storage_bucket": "realoptical-1eddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283085233492:android:b341cdd98f4097f2777cc1",
+        "android_client_info": {
+          "package_name": "com.example.eyeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283085233492-aeovhmg25b99k5bk1lvs3enh4j2oh83f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiWDHhWadndC1Q8AItpEyulEyCuv43GrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283085233492-aeovhmg25b99k5bk1lvs3enh4j2oh83f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

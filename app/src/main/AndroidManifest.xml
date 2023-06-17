@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/glogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eyeproject"
+        tools:targetApi="31">
+        <activity
+            android:name=".faceadpter"
+            android:exported="false" />
+        <activity
+            android:name=".facedata"
+            android:exported="false" />
+        <activity
+            android:name=".facetype"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".payment_gateway"
+            android:exported="false" />
+        <activity
+            android:name=".person"
+            android:exported="false" />
+        <activity
+            android:name=".showadpater"
+            android:exported="false" />
+        <activity
+            android:name=".showdata"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Product"
+            android:exported="false" />
+        <activity
+            android:name=".Ragister"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".manadapter"
+            android:exported="false" />
+        <activity
+            android:name=".dataadpter"
+            android:exported="false" />
+        <activity
+            android:name=".ProductCustomGrid"
+            android:exported="false" />
+        <activity
+            android:name=".productgrid"
+            android:exported="false" />
+        <activity
+            android:name=".product"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kidsdata"
+            android:exported="false" />
+        <activity
+            android:name=".womandata"
+            android:exported="false" />
+        <activity
+            android:name=".mandata"
+            android:exported="false" />
+        <activity
+            android:name=".mainActivityadpter"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

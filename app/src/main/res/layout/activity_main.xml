@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLHome"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:hint="User Login"
+        android:textSize="50dp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200">
+
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/opticallogo"
+        android:visibility="visible"
+        />
+
+    <EditText
+        android:screenReaderFocusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="Enter Email"
+        android:id="@+id/emailid"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:text="Azhar@123"
+        android:id="@+id/passoword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/SignIn"
+        android:text="Sign In">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/SignUp"
+        android:text="Sign Up">
+
+    </Button>
+
+
+
+
+
+</LinearLayout>

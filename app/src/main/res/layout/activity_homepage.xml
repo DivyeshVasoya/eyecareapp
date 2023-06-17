@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLHome"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <LinearLayout
+        android:id="@+id/searchlayout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:hint="search"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="153dp"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:text="Search" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:baselineAligned="true"
+        android:backgroundTintMode="multiply"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/categorybutton"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:selectAllOnFocus="true"
+                android:id="@+id/btnman"
+                android:backgroundTint="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="52dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/custome"
+                android:text="Man"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <Button
+                android:selectAllOnFocus="true"
+
+                android:defaultFocusHighlightEnabled="true"
+
+                android:id="@+id/btnwoman"
+                android:layout_width="100dp"
+                android:layout_height="52dp"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+                android:text="Woman"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <Button
+                android:selectAllOnFocus="true"
+                android:defaultFocusHighlightEnabled="true"
+
+                android:id="@+id/btnkids"
+                android:layout_width="100dp"
+                android:layout_height="52dp"
+                android:layout_margin="20dp"
+                android:background="@color/white"
+                android:text="Kids"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/eyelogo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/eyegl"
+                android:layout_width="100dp"
+                android:layout_height="52dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/eyeg">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/eyego"
+                android:layout_width="100dp"
+                android:layout_height="52dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/glogo">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/eyecom"
+                android:layout_width="100dp"
+                android:layout_height="52dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/compurtlogo">
+
+            </ImageView
+                >
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!--recycler view for our data-->
+
+    <!--progress bar for loading indicator-->
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@color/white"
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchlayout"
+        android:orientation="vertical">
+
+        <GridView
+            android:padding="10dp"
+            android:id="@+id/homeactivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:background="@color/white"
+            />
+
+    </LinearLayout>
+
+
+    <!--floating action button-->
+
+
+</LinearLayout>

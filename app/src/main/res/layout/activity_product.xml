@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".product">
+    <GridView
+        android:id="@+id/productgridview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+    <TextView
+        android:id="@+id/q"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="Qunity:" />
+
+    <TextView
+        android:id="@+id/que"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QTY"/>
+
+        <Button
+            android:id="@+id/btnplus"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:focusedByDefault="true" />
+
+        <Button
+            android:id="@+id/btnminus"
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textColorHighlight="@color/material_dynamic_tertiary95"
+           android:outlineAmbientShadowColor="@color/common_google_signin_btn_text_dark"
+            android:id="@+id/addcart"
+            android:layout_width="205dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:hint="add cart" />
+
+        <Button
+            android:id="@+id/buynow"
+            android:layout_width="205dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:hint="buynow" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
